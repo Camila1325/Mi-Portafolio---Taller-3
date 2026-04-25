@@ -3,6 +3,15 @@
     ;
 }
 
+body {
+    color: #374151;
+    background-color: #F9FAFB;
+    font-family: 'Poppins', 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
 h1 {
     font-size: 40px;
     color: #E11D48;
@@ -22,9 +31,25 @@ a {
     color: #7C3AED;
 }
 
+header {
+    background: linear-gradient(135deg, #7C3AED, #E11D48);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem;
+    font-weight: 600;
+}
+
 .sections {
     padding: 20px;
     margin: 20px 0;
     border: 1px solid #ccc;
     border-radius: 8px;
+}
+
+footer {
+    background-color: #1F1F1F;
+    color: #E9D5FF;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 14px;
 }
