@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    ;
+}
+
 h1 {
     font-size: 40px;
     color: #E11D48;
@@ -10,9 +15,16 @@ h3 {
 
 p {
     font-size: 20px;
-    color: #000000;
+    color: #374151;
 }
 
 a {
     color: #7C3AED;
+}
+
+.sections {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
