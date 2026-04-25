@@ -39,6 +39,21 @@ header {
     font-weight: 600;
 }
 
+.nav-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
 .sections {
     padding: 20px;
     margin: 20px 0;
