@@ -68,3 +68,23 @@ footer {
     padding: 1.5rem;
     font-size: 14px;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    img {
+        max-width: 100px;
+        height: auto;
+    }
+}
