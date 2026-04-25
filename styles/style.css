@@ -29,6 +29,11 @@ p {
 
 a {
     color: #7C3AED;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
 }
 
 header {
@@ -41,10 +46,11 @@ header {
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     color: #ccc;
     list-style: none;
+    font-size: 30px;
     padding: 0;
     margin: 0;
 }
@@ -54,11 +60,36 @@ header {
     font-weight: 500;
 }
 
+.nav-links a:hover {
+    color: #b18dd8;
+}
+
 .sections {
     padding: 20px;
     margin: 20px 0;
     border: 1px solid #ccc;
     border-radius: 8px;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid var(--accent);
+    margin-bottom: 20px;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -68,6 +99,7 @@ footer {
     padding: 1.5rem;
     font-size: 14px;
 }
+
 
 @media (max-width: 600px) {
     body {
